@@ -1,0 +1,28 @@
+{
+    "name": "ind_004",
+    "topologia": [
+        [
+            "TER",
+            "Preco_L"
+        ],
+        [
+            "SIN-EA",
+            "TER"
+        ],
+        [
+            "SIN-EA",
+            "HID"
+        ],
+        [
+            "HID",
+            "TER"
+        ]
+    ],
+    "n_cat": 6,
+    "norm_type": "cl",
+    "target_variable": "Preco_L",
+    "n_years": 6,
+    "data_source": "df_p_dcide.parquet",
+    "starting_year": 2017
+
+}

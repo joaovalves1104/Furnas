@@ -1,0 +1,43 @@
+{
+    "name": "ind_038",
+    "topologia": [
+        [
+            "HID",
+            "PLD_SECO"
+        ],
+        [
+            "HID",
+            "LPC_SECO"
+        ],
+        [
+            "PLD_SECO",
+            "LPC_SECO"
+        ],
+        [
+            "GE_SECO",
+            "LPC_SECO"
+        ],
+        [
+            "GE_SECO",
+            "PLD_SECO"
+        ],
+        [
+            "CI_SECO",
+            "PLD_SECO"
+        ],
+        [
+            "CI_SECO",
+            "HID"
+        ],
+        [
+            "TER",
+            "HID"
+        ]
+    ],
+    "n_cat": 9,
+    "norm_type": "qt",
+    "target_variable": "LPC_SECO",
+    "n_years": 6,
+    "data_source": "base 20240322.parquet",
+    "starting_year": 2017
+}

@@ -1,0 +1,2 @@
+categoria, método de categorização, modelagem da entrada, modelagem da saida, normalização, topologia, mape, mae, rmse
+6, porcentagem, 
